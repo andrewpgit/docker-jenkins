@@ -1,15 +1,18 @@
 # docker-jenkins
 docker-jenkins
-To quckly deploy Jenkins on the Linux.
 
- Usage: docker run 
+ Usage:  
 ========================================
 
+To quckly deploy Jenkins on the Linux.
 
 
     Usage 
    -------
-
+<pre>
+    git clone [ as usual ]
+    docker build -t jenkins:v1 .
+<pre>
 
 <pre>
 	docker run \
