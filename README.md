@@ -12,12 +12,13 @@ To quckly deploy Jenkins on the Linux.
 <pre>
     git clone [ as usual ]
     docker build -t jenkins:v1 .
-<pre>
 
-<pre>
-	docker run \
+
+Run a container
+
+docker run \
 	-d \
-	--name=name of counteiner \
+	--name=name of container \
 	-v /local/path:/opt/jenkins \
 	-p 8080:8080 \
  	 jenkins:v1 \ - [ build name of image ]
