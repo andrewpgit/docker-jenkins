@@ -6,11 +6,13 @@ docker-jenkins
 
 To quckly deploy Jenkins on the Linux.
 
-
 <pre>
-    Usage 
-   -------
+    Clone the repo.
+    
     git clone [ as usual ]
+    
+    Build container.
+
     docker build -t jenkins:v1 .
 
 
