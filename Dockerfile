@@ -19,7 +19,7 @@ ENV \
 #Install 
 RUN apt-get update -qq \
     && sed -i '1d' /etc/apt/sources.list \
-    && echo "deb http://httpredir.debian.org/debian/ jessie main contrib" >> /etc/apt/sources.list \
+    && echo "deb http://httpredir.debian.org/debian/ stretch main contrib" >> /etc/apt/sources.list \
     && apt-get update -qq && apt-get install -qqy java-package curl wget vim tar gzip git \
     && mkdir ${JENKINS_HOME} ${JAVA_HOME} ${JENKINS_WAR} \
     && curl -s -L ${JENKINS_MIRROR}/jenkins.war -o ${JENKINS_WAR}/jenkins.war \

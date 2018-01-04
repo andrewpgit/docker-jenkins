@@ -24,6 +24,6 @@ docker run \
 	-v /local/path:/opt/jenkins \
 	-p 8080:8080 \
  	 jenkins:v1 \ - [ build name of image ]
-	 --jar /opt/war/jenkins.war 
+	 -jar /opt/war/jenkins.war 
 <pre>
 
