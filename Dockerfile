@@ -34,7 +34,7 @@ RUN apt-get update -qq \
     && apt-get autoremove -yqq \
     && rm -rf  /var/lib/{apt,cache}/ 
 
-ENV  PATH ${JAVA_HOME}/jdk*/jre/bin:$PATH
+ENV  PATH ${JAVA_HOME}/jdk1.8.0_202/jre/bin:$PATH
 
 EXPOSE 8080
 
